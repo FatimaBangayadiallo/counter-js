@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.container{
+    text-align: center;
+}
+.container h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+}
+.value{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+button{
+    display: inline-block;
+    padding: 0.375rem 1rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s all linear;
+}
+button:hover{
+    background-color: gray;
+    color:saddlebrown;
+}
